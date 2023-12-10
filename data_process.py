@@ -5,7 +5,7 @@ from molFrags import *
 
 def data_process():
     #--------data_load
-    PATH = './SubCDR_revise/data'
+    PATH = './data'
     Drug_file = '%s/drug_smiles.csv'%PATH
     Cell_line_file = '%s/cell line_GEP.csv'%PATH
     Gene_role_file = '%s/gene_role.csv'%PATH
